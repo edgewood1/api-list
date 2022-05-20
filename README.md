@@ -10,8 +10,8 @@ This app uses json-server to host `server/data.json` file.  It calls the server 
 
 # To run: 
 
-`npm run install` - this loads up dependencies
-`npm run serve` - this starts the json-server on port 8000
-`npm run dev` - this runs the app in port 1234. If this port is busy, it will select another port.
-`npm run build` - this will build the app for deployment
+- `npm run install` - this loads up dependencies
+- `npm run serve` - this starts the json-server on port 8000
+- `npm run dev` - this runs the app in port 1234. If this port is busy, it will select another port.
+- `npm run build` - this will build the app for deployment
 
