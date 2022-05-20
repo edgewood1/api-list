@@ -8,7 +8,8 @@
     "@mui/icons-material": "^5.8.0",
     "@mui/material": "^5.7.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "uniqid": "^5.4.0"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
@@ -16,8 +17,10 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
+    "os-browserify": "^0.3.0",
     "parcel": "^2.5.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "process": "^0.11.10"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,7 +28,8 @@
     "build": "parcel build src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "serve": "npx json-server --watch server/data.json --port 8000"
   },
   "repository": {
     "type": "git",
