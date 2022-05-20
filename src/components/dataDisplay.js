@@ -19,7 +19,6 @@ const Img = styled.img`
   border: 1px solid black;
   border-radius: 55%;
   margin: 20px;
-
   @media only screen and (max-width: 600px) {
     transform: scale(1.1);
     margin: 10px;
@@ -32,6 +31,7 @@ const DataDisplay = ({ student }) => {
     const avg = sum / student.grades.length;
     return avg;
   };
+
   return (
     <Card>
       <Image>
