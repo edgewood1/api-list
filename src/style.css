@@ -5,3 +5,21 @@ html {
   justify-content: center;
 }
 
+.expand {
+  display: none;
+}
+
+#line {
+  border-bottom: 1px solid gray;
+}
+
+#tests {
+  padding-left: calc(20% - 10px);
+}
+
+#searchIcon {
+  transform: scale(1.4);
+  position:absolute;
+  left: 40px; top: 18px;
+  opacity: .3
+}
